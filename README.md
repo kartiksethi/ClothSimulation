@@ -1,9 +1,9 @@
 # Cloth Simulation using Spring Mass Model and Internal Energy Model
 
-There are two which have tried. One is called **Spring Mass Model** and the other is called **Internal Energy Model** Each model is located in a separate folder.
+There are two models which have been tried. One is called **Spring Mass Model** and the other is called **Internal Energy Model**. Each model is located in a separate folder.
 
 A glimpse of the output:
-
+![Spring Mass Model](/springmass/simulation/simulation.gif)
 
 
 Follow the steps to get the code running:
