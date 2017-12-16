@@ -1,1 +1,4 @@
 *.rb linguist-language=C++
+documentation/* linguist-documentation
+internalenergy/html/* linguist-documentation
+springmass/html/* linguist-documentation
