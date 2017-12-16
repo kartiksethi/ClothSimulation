@@ -20,7 +20,8 @@ unsigned long cloth_nrow = 55;
 unsigned long cloth_ncol = 45;
 double cloth_mass = 1;
 Color ballColor = {0.5, 0.6, 0.1};
-
+int width = 1366 // width of the window
+int height = 768 // height of the window
 Color clothColorPrimary = {0.9, 0.1, 0.1};
 Color clothColorSecondary = {0.1, 0.1, 0.1};
 dvec3 clothPosition(0, -2, 0);
@@ -193,7 +194,7 @@ int main()
     int x = 0;
     glutInit(&x, nullptr);
     glutInitDisplayMode(GLUT_RGB | GLUT_DOUBLE | GLUT_DEPTH);
-    glutInitWindowSize(800, 600);
+    glutInitWindowSize(width,height);
     glutCreateWindow("Cloth Simulation");
 
     // register callbacks

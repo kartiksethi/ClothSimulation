@@ -18,8 +18,8 @@ using namespace glm;
  * 
  */
 
-int width = 500; //width of the window
-int height = 500; //height of the window
+int width = 1366; //width of the window
+int height = 768; //height of the window
 GLdouble backColor[3] = {0.0, 0.0, 0.0}; //color of the background
 GLdouble clothColor1[3] = {0.5, 0.5, 0.9};
 GLdouble clothColor2[3] = {0.8, 0.2, 0.5};
