@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/anikethjr/Graphics/Cloth-Simulation/Cloth.h
+Constraint.h
+/home/anikethjr/Graphics/Cloth-Simulation/Constraint.h
+Particle.h
+/home/anikethjr/Graphics/Cloth-Simulation/Particle.h
+
+/home/anikethjr/Graphics/Cloth-Simulation/Constraint.h
+Particle.h
+/home/anikethjr/Graphics/Cloth-Simulation/Particle.h
+
+/home/anikethjr/Graphics/Cloth-Simulation/Particle.h
+bits/stdc++.h
+-
+GL/glut.h
+-
+GL/glu.h
+-
+glm/glm.hpp
+-
+glm/gtc/matrix_transform.hpp
+-
+glm/gtc/type_ptr.hpp
+-
+glm/gtx/transform.hpp
+-
+glm/gtx/rotate_vector.hpp
+-
+glm/gtx/normal.hpp
+-
+glm/gtx/vector_angle.hpp
+-
+
+/home/anikethjr/Graphics/Cloth-Simulation/main.cpp
+Cloth.h
+/home/anikethjr/Graphics/Cloth-Simulation/Cloth.h
+
